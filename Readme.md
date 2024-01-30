@@ -2,6 +2,7 @@
 
 * Студент: [Дмитрий MF](https://up.htmlacademy.ru/htmlcss/39/user/2451651).
 * Наставник:[Иван Жарков](https://htmlacademy.ru/profile/id191422).
+* Сайт: [Мой проект Седона] (https://dimitriymf.github.io/2451651-sedona-39/)
 
 ---
 
