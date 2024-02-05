@@ -1,40 +1,59 @@
-# Личный проект «Седона»
-
-* Студент: [Дмитрий MF](https://up.htmlacademy.ru/htmlcss/39/user/2451651).
-* Наставник:[Иван Жарков](https://htmlacademy.ru/profile/id191422).
-* Сайт: [Мой проект Седона](https://dimitriymf.github.io/2451651-sedona-39/)
-
----
-
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
-
----
-
-### Памятка
-
-#### 1. Зарегистрируйтесь на Гитхабе
-
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
-
-#### 2. Создайте копию
-
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/2451651-sedona-39) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037949-67a635d6-7bae-11e7-9f2f-1a48fde231b9.jpg">
-
-Получится вот так:
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037953-6a8a7384-7bae-11e7-83ac-59603b1d696c.jpg">
-
-#### 3. Скачайте репозиторий на свой компьютер
-
-Нажмите на зелёную кнопку «Code». Далее в выпавшем списке выберите пункт «Download ZIP». Выберите папку для скачивания на компьютер, например «Загрузки».
-
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/htmlcss"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/htmlcss/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Профессиональная вёрстка сайтов](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Leley - Интернет магазин косметики</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+        content="Интернет-магазин по продаже косметикидля ухода тела и лица. Косметика, которая действительно работает.">
+  <meta name="keywords" content="крема, гели">
+  <link rel="preload" href="./fonts/Montserrat-Bold.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/Montserrat-Medium.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/Montserrat-SemiBold.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="./fonts/Montserrat-Regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="icon" href="favicon.ico" sizes="32x32">
+  <link rel="icon" href="https://leley.ru/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="page__body">
+<header class="header">
+  <div class="header__wrapper">
+    <div class="header__body">
+      <a class="header__logo logo" href="index.html">
+        <picture>
+          <img src="images/logoDesktop.webp" width="96" height="96" alt="Логотип интернет магазина">
+        </picture>
+      </a>
+    </div>
+    <nav class="header__nav">
+      <input class="header__burger-checkbox" type="checkbox" id="burger-checkbox">
+      <label class="header__burger" for="burger-checkbox"></label>
+      <ul class="header__list">
+        <li class="headeritem headeritem--current">
+          <a class="header__link" href="#catalog">Каталог</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#brand">О бренде</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#reviews">Отзывы</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#chat">Обратная связь</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#">Обмен и возврат</a>
+        </li>
+        <li class="header__item">
+          <a class="header__link" href="#">Библиотека</a>
+        </li>
+        <li class="header__item">
+          <a class="headerlink headerlink--basket" href="#">Корзина</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header></body>
+</html>
